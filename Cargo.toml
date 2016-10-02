@@ -1,0 +1,20 @@
+[package]
+name = "voebb-scraper"
+version = "0.1.0"
+authors = ["pajowu <github@ca.pajowu.de>"]
+
+[dependencies]
+select = { git = "https://github.com/utkarshkukreti/select.rs" }
+time = "*"
+google-calendar3 = "*"
+yup-oauth2 = "0.6"
+hyper = "*"
+serde_json = "*"
+yup-hyper-mock = "*"
+chrono = "*"
+open = "*"
+getopts = "*"
+data-encoding = "*"
+requests = "*"
+regex = "0.1"
+mime = "*"
